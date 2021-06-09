@@ -1,6 +1,6 @@
 require 'rails_helper'
 require 'spec_helper'
-
+system('clear')
 describe "the navbar partial" do
   it "renders the navbar correctly" do
     render "layouts/navbar"
